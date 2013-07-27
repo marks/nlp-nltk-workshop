@@ -36,7 +36,8 @@ A 10,000 foot view of NLP and NLTK
       - hierarchical and ordered
       - S = sentence, NP, NP = noun phrase, VP = verb phrase
   - semantics = the study of meaning
-    -
+- Leveraging NLTK (https://github.com/nltk/nltk)
+  - "NLP is perfect for MapReduce" (Hadoop)
 
 
 My own thoughts
@@ -44,3 +45,5 @@ My own thoughts
 - things to look into
   - what other projects like http://overview.ap.org/ exist?
   - http://www.antlr.org/ - ANother Tool for Language Recognition
+  - NLTK being "Production ready analytics with Numpy or Pandas"
+  - hadoop streaming w/ NLTK
