@@ -1,10 +1,8 @@
 import pprint
-
 import nltk
 from nltk import text
 from nltk.corpus import PlaintextCorpusReader
 from nltk import FreqDist
-
 
 CORPUS_ROOT = "/Users/mark/Desktop/nlp-nltk-workshop/corpora/selection_from_gutenberg/"
 
@@ -42,3 +40,8 @@ corpus = MyCorpus()
 # print corpus.vocabulary()
 print corpus.histogram()
 pp.pprint(corpus.histogram())
+
+raw_text = nltk.corpus.gutenberg.raw('melville-moby_dick.txt')
+tokens = nltk.word_tokenize(raw_text)
+bigrams = nltk.bigrams(tokens)
+histogram = nltk.FreqDist(bigrams)
