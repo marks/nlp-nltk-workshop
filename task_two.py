@@ -1,3 +1,6 @@
+### WARNING - task_two.py is a work in progress.
+### task_one.py does work as expected though
+
 import pprint
 import nltk
 from nltk import text
@@ -24,7 +27,7 @@ class MyCorpus(PlaintextCorpusReader):
     return FreqDist(self.text())
 
   def tokens(self):
-    return nltk.word_tokenize(self.text)
+    return nltk.word_tokenize(str(self.text))
 
   def __len__(self):
     return len(self.text())
@@ -34,9 +37,10 @@ pp = pprint.PrettyPrinter(indent=2)
 
 corpus = MyCorpus()
 # print corpus
-print corpus.text()
-print corpus.vocabulary()
-print corpus.histogram()
+# print corpus.text().__class__
+# print corpus.vocabulary()
+# print corpus.histogram()
 # pp.pprint(corpus.histogram())
 #
+# print str(corpus.text()).__class__
 print corpus.tokens()
