@@ -94,3 +94,4 @@ My own thoughts
   - NLTK being "Production ready analytics with Numpy or Pandas"
   - hadoop streaming w/ NLTK
   - NLP framework for Ruby - https://github.com/louismullie/treat
+  - health-specific! http://idash.ucsd.edu/nlp-and-data-modeling
