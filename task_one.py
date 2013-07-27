@@ -1,3 +1,20 @@
+"""
+task_one.py
+
+This file demonstrates how to create a custom corpus class to work with your own data.
+
+Documentation on working with corpa in NLTK is available at:
+https://nltk.googlecode.com/svn/trunk/doc/book/ch02.html
+
+The files accessed by this corpus should be stored on disk in this file structure:
+|-- Corpus Root
++--+
+   |-- README
+   |-- categories.txt
+   |-- texta.txt
+   +-- textb.txt
+"""
+
 import pprint
 
 import nltk
