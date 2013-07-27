@@ -18,6 +18,8 @@ A 10,000 foot view of NLP and NLTK
 ----------------------------------
 (http://bengfort.com/presentations/discourses-in-language-processing/skyview/)
 
+- google has been successful because they have had a huge training set from people clicking on the right 'answer'
+- 
 
 
 My own thoughts
