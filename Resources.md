@@ -23,4 +23,5 @@
 * [Natural Language Processing with Python](http://www.amazon.com/Natural-Language-Processing-Python-Steven/dp/0596516495)
 
 ## Slides
-* [Discourses in Human Language](http://bengfort.com/presentations/discourses-in-language-processing/index.html)
+* SLIDES: [Discourses in Human Language](http://bengfort.com/presentations/discourses-in-language-processing/index.html)
+* SOURCE: [Discourses in Human Language] (https://github.com/bbengfort/discourses-in-language-processing)
