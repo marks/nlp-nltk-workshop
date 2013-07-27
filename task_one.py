@@ -1,3 +1,4 @@
+import nltk
 from nltk import text
 from nltk.corpus import PlaintextCorpusReader
 from nltk import FreqDist
@@ -11,7 +12,7 @@ class MyCorpus(PlaintextCorpusReader):
     super(MyCorpus, self).__init__(CORPUS_ROOT, '.*')
 
   def text(self):
-    return text(self.words())
+    return self.words()
 
   def vocabulary(self):
     return set(self.text())
@@ -30,3 +31,4 @@ corpus = MyCorpus()
 print corpus
 print corpus.text()
 print corpus.vocabulary()
+print corpus.histogram()
