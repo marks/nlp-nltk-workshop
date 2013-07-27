@@ -89,6 +89,8 @@ Tokenization and segmentation
   - enter punkt sentence tokenizer
 - word tokenization
   - splitting on whitespace is usually not enough
+- n-grams = a contiguous sequence of N items from a sequence of text
+
 
 
 
