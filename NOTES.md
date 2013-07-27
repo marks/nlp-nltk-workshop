@@ -1,12 +1,9 @@
 Workshop Content
 ================
-
-All slides - http://bengfort.com/presentations/discourses-in-language-processing/
 Github - https://github.com/bbengfort
 
 Introduction
 ------------
-- http://bengfort.com/presentations/discourses-in-language-processing/introduction/
 - NLP as a subset of AI
 - NLTK is one of many NLP suites of libraries available
   - great because it's open source (not a black box) and source can be easily be browsed (unlike many Java jars)
@@ -15,7 +12,6 @@ Introduction
 
 A 10,000 foot view of NLP and NLTK
 ----------------------------------
-- http://bengfort.com/presentations/discourses-in-language-processing/skyview/
 - google has been successful because they have had a huge training set from people clicking on the right 'answer'
 - what is required?
   1. Domain knowledge
@@ -52,8 +48,34 @@ A 10,000 foot view of NLP and NLTK
 
 Organizing text - The management of large bodies of natural language - copora
 -----------------------------------------------------------------------------
-- http://bengfort.com/presentations/discourses-in-language-processing/task_one/
--
+- built in corpora of NLTK (all can be found in `nltk.corpus`)
+  - `gutenberg: Small selection of literature
+  - `shakespeare`: For Elizabethan comparisons
+  - `webtext`: Forums, personal ads, movie script, reviews
+  - `nps_chat`: Chat text collectd by Naval Postgrad School
+  - `brown`: First million word electronic corpus
+  - `reuters`: News articles (1.3 million words)
+  - `inaugural`: Innaugural addresses
+  - `swtichboard`: Transcribed phone conversations
+- organizing your own corpus
+    |-- Corpus Root
+    +--+
+       |-- README
+       |-- categories.txt
+       |-- texta.txt
+       +-- textb.txt
+  - Overrides for walking directory structures
+  - ZipFile Corpus Readers for compression
+- accessing a corpus
+  >>> from nltk.corpus import PlaintextCorpusReader
+  >>> root   = '/home/student/Corpora/books/'
+  >>> corpus = PlaintextCorpusReader(root, '.*')
+  >>> corpus.fileids()
+  ['The', 'Project', 'Gutenberg', 'EBook', 'of', 'An', ...]
+  >>> print corpus.readme()
+  "The corpus of categorized books for the NLTK Workshop"
+
+
 
 My own thoughts
 ===============
