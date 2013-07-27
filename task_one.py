@@ -1,3 +1,5 @@
+import pprint
+
 import nltk
 from nltk import text
 from nltk.corpus import PlaintextCorpusReader
@@ -27,8 +29,11 @@ class MyCorpus(PlaintextCorpusReader):
     return len(self.text())
 
 
+pp = pprint.PrettyPrinter(indent=2)
+
 corpus = MyCorpus()
-print corpus
-print corpus.text()
-print corpus.vocabulary()
+# print corpus
+# print corpus.text()
+# print corpus.vocabulary()
 print corpus.histogram()
+pp.pprint(corpus.histogram())
