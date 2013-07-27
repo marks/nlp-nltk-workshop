@@ -93,3 +93,4 @@ My own thoughts
   - http://www.antlr.org/ - ANother Tool for Language Recognition
   - NLTK being "Production ready analytics with Numpy or Pandas"
   - hadoop streaming w/ NLTK
+  - NLP framework for Ruby - https://github.com/louismullie/treat
