@@ -23,10 +23,8 @@ class MyCorpus(PlaintextCorpusReader):
   def histogram(self):
     return FreqDist(self.text())
 
-  def generate_text(cfdist, start, num=15):
-    for i in xrange(num):
-      print start,
-      start = cfdist[start].max()
+  def tokens(self):
+    return nltk.word_tokenize(self.text)
 
   def __len__(self):
     return len(self.text())
@@ -36,12 +34,9 @@ pp = pprint.PrettyPrinter(indent=2)
 
 corpus = MyCorpus()
 # print corpus
-# print corpus.text()
-# print corpus.vocabulary()
+print corpus.text()
+print corpus.vocabulary()
 print corpus.histogram()
-pp.pprint(corpus.histogram())
-
-raw_text = nltk.corpus.gutenberg.raw('melville-moby_dick.txt')
-tokens = nltk.word_tokenize(raw_text)
-bigrams = nltk.bigrams(tokens)
-histogram = nltk.FreqDist(bigrams)
+# pp.pprint(corpus.histogram())
+#
+print corpus.tokens()
