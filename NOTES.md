@@ -82,7 +82,13 @@ Organizing text - The management of large bodies of natural language - copora
   - PDF - `pypdf`
   - MS Word - `pywin32`
 
-
+Tokenization and segmentation
+-----------------------------
+- segmentation = splitting raw text into sentences (or other segments)
+  - is simply splitting on punctuation enough?
+  - enter punkt sentence tokenizer
+- word tokenization
+  - splitting on whitespace is usually not enough
 
 
 
