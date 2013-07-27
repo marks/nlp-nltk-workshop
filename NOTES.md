@@ -80,7 +80,9 @@ Organizing text - The management of large bodies of natural language - copora
     - protip: use Instapaper and clean_html together to not have to reinvent body parsers for websites
   - RSS - `feedparser` library
   - PDF - `pypdf`
-  - MS Word - `pywin23`
+  - MS Word - `pywin32`
+
+
 
 
 
