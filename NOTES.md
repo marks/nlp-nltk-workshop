@@ -74,6 +74,13 @@ Organizing text - The management of large bodies of natural language - copora
   ['The', 'Project', 'Gutenberg', 'EBook', 'of', 'An', ...]
   >>> print corpus.readme()
   "The corpus of categorized books for the NLTK Workshop"
+- beyond plaintext
+  - Tagged and Categoried Corpora
+  - HTML - `nltk.clean_html` or `BeautifulSoup`
+    - protip: use Instapaper and clean_html together to not have to reinvent body parsers for websites
+  - RSS - `feedparser` library
+  - PDF - `pypdf`
+  - MS Word - `pywin23`
 
 
 
