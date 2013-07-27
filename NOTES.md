@@ -6,8 +6,7 @@ Github - https://github.com/bbengfort
 
 Introduction
 ------------
-(http://bengfort.com/presentations/discourses-in-language-processing/introduction/)
-
+- http://bengfort.com/presentations/discourses-in-language-processing/introduction/
 - NLP as a subset of AI
 - NLTK is one of many NLP suites of libraries available
   - great because it's open source (not a black box) and source can be easily be browsed (unlike many Java jars)
@@ -16,8 +15,7 @@ Introduction
 
 A 10,000 foot view of NLP and NLTK
 ----------------------------------
-(http://bengfort.com/presentations/discourses-in-language-processing/skyview/)
-
+- http://bengfort.com/presentations/discourses-in-language-processing/skyview/
 - google has been successful because they have had a huge training set from people clicking on the right 'answer'
 - what is required?
   1. Domain knowledge
@@ -38,7 +36,24 @@ A 10,000 foot view of NLP and NLTK
   - semantics = the study of meaning
 - Leveraging NLTK (https://github.com/nltk/nltk)
   - "NLP is perfect for MapReduce" (Hadoop)
+  - major packages:
+    - Utilities:
+      - probability (Frequency and Conditional Distributions)
+      - text, data, grammar, and corpus
+      - tree (An impressive tree data structure and subclasses)
+      - draw (Visualizations in Tkinter)
+    - Language Processing
+      - tokenize, stem (Morphological Processing, Segmentation)
+      - collocations, models (NGram Analysis)
+      - tag, chunk (Tagging and named entity Recognition)
+      - parse (Syntactic Parsing)
+      - sem (Semantic Analyses)
+      - more: classification, clustering
 
+Organizing text - The management of large bodies of natural language - copora
+-----------------------------------------------------------------------------
+- http://bengfort.com/presentations/discourses-in-language-processing/task_one/
+-
 
 My own thoughts
 ===============
