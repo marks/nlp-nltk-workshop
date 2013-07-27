@@ -31,7 +31,16 @@ A 10,000 foot view of NLP and NLTK
       - tokens = symbols of language
       - words = tokens with meaning
       - stem = what you would look up in the dictionary
+  - syntax = the study of the rules for formation of sentences
+    - a sentence diagram: http://bengfort.com/presentations/discourses-in-language-processing/img/skyview/parse.png
+      - hierarchical and ordered
+      - S = sentence, NP, NP = noun phrase, VP = verb phrase
+  - semantics = the study of meaning
+    -
+
 
 My own thoughts
 ===============
-- what other projects like http://overview.ap.org/ exist?
+- things to look into
+  - what other projects like http://overview.ap.org/ exist?
+  - http://www.antlr.org/ - ANother Tool for Language Recognition
