@@ -15,6 +15,9 @@
 * PDF: [pypdf](https://pypi.python.org/pypi/pyPdf)
 * MS Word: [pywin23](http://starship.python.net/crew/mhammond/win32/Downloads.html)
 
+### Other
+* [OpenWIMs Demo] (http://openwims.org/demo/)
+
 ## Books
 * [Speech and Language Processing](http://www.amazon.com/Speech-Language-Processing-2nd-Edition/dp/0131873210)
 * [Natural Language Processing with Python](http://www.amazon.com/Natural-Language-Processing-Python-Steven/dp/0596516495)
